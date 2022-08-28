@@ -24,7 +24,7 @@ body {
 
 #left {
     margin-left: 1%;
-
+    color:black;
 
 }
 
@@ -37,7 +37,7 @@ body {
     top: 0;
     /* displays so it can align in right */
     padding: 2px 0px 2px 0px;
-    
+    color:black;
     text-align: center;
 
 }
@@ -47,6 +47,7 @@ body {
     text-decoration: none;
     border:2px solid white;
     margin-right:15px ;
+    color:black;
 }
 /* media queries */
 @media (max-width: 500px) {
