@@ -52,6 +52,10 @@ body {
     .menu{
         margin-right: 0px;
     }
+    *{
+        font-size: 15px;
+    }
+
 }
 /* media queries */
 .menu:hover {
