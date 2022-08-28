@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: monospace;
+    font-size: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+    /*change background color and text color*/
+    display: block;
+    /* block because it will now occupy whole line */
+
+    border: 2px solid white;
+
+}
+
+#left {
+    margin-left: 1%;
+
+
+}
+
+#right {
+    margin-right: 1%;
+    /* displays as inline block */
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* displays so it can align in right */
+    padding: 2px 0px 2px 0px;
+    
+    text-align: center;
+
+}
+
+.menu {
+    color: inherit;
+    text-decoration: none;
+    border:2px solid white;
+    margin-right:15px ;
+}
+/* media queries */
+@media (max-width: 500px) {
+    .menu{
+        margin-right: 0px;
+    }
+}
+/* media queries */
+.menu:hover {
+    background-color: rgb(226, 215, 215);
+    border:2px solid rgb(233, 230, 230);
+    border-radius: 2px;
+
+  }
